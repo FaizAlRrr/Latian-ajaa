@@ -1,0 +1,127 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  font-family: helvetica;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: rgb(110, 106, 106);
+}
+
+header {
+  position: sticky;
+  text-align: center;
+  background-color: rgb(142, 142, 172);
+  font-weight: 800;
+  padding: 10px;
+}
+
+.navbar-container {
+  position: sticky;
+  display: flex;
+  margin: 10px;
+  text-align: center;
+  background-color: rgb(142, 142, 172);
+  padding: 10px;
+}
+
+.navbar-container a {
+  font-size: 20px;
+  text-decoration: none;
+  color: rgb(9, 6, 0);
+  justify-content: space-between;
+}
+
+/* Products */
+.products-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(45, 139, 139);
+  align-items: center;
+  justify-content: center;
+}
+
+.products-container #products {
+  padding: 30px;
+  background-color: gold;
+  margin: 10px;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.products-container #products figcaption {
+  font-size: 15px;
+  border-radius: 5px;
+  transition: 0.3s ease-in-out;
+  border: 1px solid black;
+  padding: 5px;
+  margin: 5px;
+  text-align: center;
+}
+
+.products-container #products img {
+  width: 100%;
+}
+
+.products-container #products:hover {
+  background-color: rgb(166, 146, 28);
+}
+
+.products-container #products figcaption:hover {
+  background-color: rgb(38, 159, 149);
+}
+
+/* services */
+.services-container {
+  margin: 20px;
+  padding: 20px;
+  background-color: rgb(78, 68, 169);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.services-container #services {
+  border-radius: 5px;
+  background-color: rgb(104, 136, 180);
+  padding: 15px;
+  transition: 0.2s ease-in-out;
+}
+
+.services-container #services figcaption {
+  text-align: center;
+  font-weight: 700;
+  margin: 5px;
+}
+
+.services-container #services:hover {
+  background-color: rgb(104, 130, 190);
+}
+
+/* contact */
+.contact-container {
+  padding: 20px;
+  margin: 10px;
+  background-color: burlywood;
+}
+
+.contact-container h1 {
+  text-align: center;
+  font-size: 30px;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.contact-container article p {
+  text-align: justify;
+  padding: 5px;
+}
+
+.contact-container #contact h3 {
+  padding: 10px;
+  margin: 5px 0 0 175px;
+  text-align: center;
+  display: inline;
+}
