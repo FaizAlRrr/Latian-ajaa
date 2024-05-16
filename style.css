@@ -23,6 +23,8 @@ header {
   text-align: center;
   background-color: rgb(142, 142, 172);
   padding: 10px;
+  position: sticky;
+  top: 0;
 }
 
 .navbar-container a {
